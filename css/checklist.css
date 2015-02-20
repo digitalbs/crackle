@@ -1,0 +1,46 @@
+/* Checklist Container */
+.checklist-container {
+	min-width: 30em;
+}
+
+.checklist-container h1 {
+	border-bottom: 1px solid #999;
+	padding-bottom: 0.8em;
+}
+
+.crackle-icon {
+	width:30px;
+	vertical-align: bottom;
+}
+
+/* Checklist */
+#checklist {
+	list-style: none;
+	margin: 1em;
+	padding: 0;
+}
+
+.checkItem, .no-items {
+	font-size: 1.2em;
+}
+
+.no-items a {
+	display: block;
+	color: #ED9D20;
+}
+
+/* Checkboxes */
+[type="checkbox"] {
+	margin-right: 1em;
+}
+
+label {
+	width:80%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+label.checked {
+	color: #999999;
+	text-decoration: line-through;
+}

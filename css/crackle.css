@@ -1,0 +1,59 @@
+/* Crackle Header */
+#crackle-header {
+	margin-top: 6em;
+	text-align: center;
+}
+
+#crackle-header h1 {
+	background: url('../images/flame.png') no-repeat center top ;
+	width: 25%;
+	margin: 0 auto;
+	padding-top: 5em;
+	font-size: 5em;
+}
+
+/* Crackle Container */
+.crackle-container {
+	text-align: center;
+}
+
+/* Crackle List Creator */
+#crackle-create-list h2 {
+	margin: 1.8em 0;
+}
+
+#cl-item {
+	width: 80%;
+	height: 4em;
+	padding: 1em;
+	font-size: 1.5em;
+	border-radius: 4px;
+	border: 1px solid #999;
+}
+
+#add-list-item {
+	font-size: 2em;
+	background: #ED9D20;
+	border: none;
+	border-radius: 3px;
+	padding: 0.3em 0.6em;
+	color: #fff;
+	cursor: pointer;
+	margin: 0 0 0 0.5em;
+}
+
+#crackle-options {
+	width: 74em;
+	margin: 2em auto;
+	text-align: left;
+	list-style: none;
+}
+
+#crackle-options .remove {
+	background: #DF4C17;
+	border-radius: 20em;
+	padding: 0.3em 0.6em;
+	color: #fff;
+	cursor: pointer;
+	margin-right: 1em;
+}

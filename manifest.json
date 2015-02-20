@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "Crackle.js",
+  "description": "Code Review Checklist for Github pull requests",
+  "version": "1",
+
+  "page_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Crackle.js"
+  },
+  "content_scripts": [{
+    "js": ["js/content.js"],
+    "matches": ["https://github.com/*/*/pull/*"],
+    "run_at": "document_end"
+  }],
+  "permissions": [
+    "history",
+    "storage",
+    "tabs",
+    "https://github.com/*/*/pull/*",
+    "declarativeContent"
+  ],
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+  "options_page": "options.html"
+}
