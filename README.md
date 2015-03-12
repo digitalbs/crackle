@@ -1,6 +1,6 @@
 ## Crackle.js
 
-Crackle.js is a chrome extension that is a checklist for a Github Pull Request.
+[Crackle.js](https://chrome.google.com/webstore/detail/cracklejs/gmajdddjbncejffnfmgeldkkcmiipili?hl=en) is a chrome extension that is a checklist for a Github Pull Request.
 
 There are two parts to Crackle.js.
 
